@@ -2,6 +2,7 @@
   "name": "vid",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://poojan-2099.github.io/Pokemon/",
   "dependencies": {
     "@babel/runtime": "^7.12.5",
     "@testing-library/jest-dom": "^4.2.4",
@@ -20,6 +21,8 @@
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
